@@ -1,0 +1,172 @@
+{
+  "identity": {
+    "name": "KrishiRakshak X",
+    "mission": "Empower farmers with AI-driven insights for soil, crops, and markets.",
+    "tone": "Trustworthy, Growth-oriented, Modern, Accessible, Grounded",
+    "target_audience": "Indian Farmers (Mobile-first users)"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Manrope, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-5xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-4xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold",
+      "body_lg": "text-lg leading-relaxed",
+      "body_base": "text-base leading-relaxed",
+      "caption": "text-sm text-muted-foreground"
+    }
+  },
+  "colors": {
+    "theme": "light",
+    "palette": {
+      "primary": {
+        "DEFAULT": "#059669",
+        "foreground": "#FFFFFF",
+        "hover": "#047857",
+        "description": "Emerald Green - Represents growth, crops, and nature."
+      },
+      "secondary": {
+        "DEFAULT": "#D97706",
+        "foreground": "#FFFFFF",
+        "hover": "#B45309",
+        "description": "Amber/Earth - Represents soil, harvest, and warmth."
+      },
+      "background": {
+        "DEFAULT": "#F0FDF4",
+        "paper": "#FFFFFF",
+        "subtle": "#DCFCE7"
+      },
+      "text": {
+        "primary": "#022C22",
+        "secondary": "#374151",
+        "muted": "#6B7280"
+      },
+      "accent": {
+        "success": "#10B981",
+        "warning": "#F59E0B",
+        "error": "#EF4444",
+        "info": "#3B82F6"
+      }
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "spacing": {
+      "section": "py-12 md:py-16",
+      "component": "p-6 md:p-8"
+    },
+    "grid": {
+      "dashboard": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
+      "features": "grid grid-cols-1 md:grid-cols-3 gap-8"
+    },
+    "radius": {
+      "default": "rounded-xl",
+      "button": "rounded-full",
+      "card": "rounded-2xl"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-8 py-3 font-medium",
+      "secondary": "bg-white text-primary border-2 border-primary hover:bg-primary/5 transition-all duration-300 rounded-full px-8 py-3 font-medium",
+      "ghost": "hover:bg-accent hover:text-accent-foreground rounded-lg px-4 py-2"
+    },
+    "cards": {
+      "dashboard": "bg-white rounded-2xl shadow-sm border border-emerald-100 p-6 hover:shadow-md transition-shadow duration-300",
+      "feature": "bg-white/80 backdrop-blur-sm rounded-2xl p-8 border border-emerald-50 hover:border-emerald-200 transition-all duration-300 group"
+    },
+    "inputs": {
+      "default": "rounded-lg border-emerald-200 focus:ring-2 focus:ring-emerald-500 focus:border-transparent bg-white/50 backdrop-blur-sm"
+    }
+  },
+  "visual_enhancers": {
+    "shadows": {
+      "soft": "0 4px 20px -2px rgba(5, 150, 105, 0.1)",
+      "hover": "0 10px 25px -5px rgba(5, 150, 105, 0.15)"
+    },
+    "gradients": {
+      "hero": "bg-gradient-to-b from-emerald-50 to-white",
+      "card_highlight": "bg-gradient-to-br from-white to-emerald-50"
+    },
+    "glassmorphism": "bg-white/70 backdrop-blur-lg border border-white/20 shadow-xl"
+  },
+  "image_urls": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1751214968949-34ffa0650745?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBmYXJtZXIlMjBzbWFydHBob25lJTIwZmllbGR8ZW58MHx8fHwxNzczMDYyNzQ0fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Indian farmer in field",
+      "category": "hero"
+    },
+    "crops": [
+      {
+        "url": "https://images.unsplash.com/photo-1752424564550-dbada9062781?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHxoZWFsdGh5JTIwd2hlYXQlMjByaWNlJTIwY29ybiUyMGNyb3B8ZW58MHx8fHwxNzczMDYyNzQ2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Rice crop close up",
+        "category": "crop_rice"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1738640920336-26aae3e5db67?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwd2hlYXQlMjByaWNlJTIwY29ybiUyMGNyb3B8ZW58MHx8fHwxNzczMDYyNzQ2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Healthy crop field",
+        "category": "crop_general"
+      }
+    ],
+    "disease": {
+      "url": "https://images.unsplash.com/photo-1769613637793-1d497f0fedf0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MDV8MHwxfHNlYXJjaHwxfHxwbGFudCUyMGxlYWYlMjBkaXNlYXNlJTIwY2xvc2UlMjB1cHxlbnwwfHx8fDE3NzMwNjI3NTF8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Leaf disease example",
+      "category": "disease_detection"
+    },
+    "equipment": [
+      {
+        "url": "https://images.unsplash.com/photo-1761583780469-2f206ec7b270?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjB0cmFjdG9yJTIwZHJvbmUlMjBhZ3JpY3VsdHVyZXxlbnwwfHx8fDE3NzMwNjI3NTV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Agricultural Drone",
+        "category": "equipment_drone"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1717992649099-e2c0fc7408e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB0cmFjdG9yJTIwZHJvbmUlMjBhZ3JpY3VsdHVyZXxlbnwwfHx8fDE3NzMwNjI3NTV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Tractor in field",
+        "category": "equipment_tractor"
+      }
+    ],
+    "market": {
+      "url": "https://images.unsplash.com/photo-1768734837464-c5045c6a98c4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMHZlZ2V0YWJsZXMlMjBmcnVpdHMlMjBtYXJrZXQlMjBiYXNrZXR8ZW58MHx8fHwxNzczMDYyNzYwfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Vegetable market",
+      "category": "mandi_market"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use 'Manrope' for all headings to give a modern, friendly feel.",
+    "Use 'Inter' for body text for maximum readability on mobile devices.",
+    "Implement a 'Light Mode' first approach. The app should feel airy, clean, and organic.",
+    "Use the Emerald Green (#059669) as the primary action color. It builds trust and relates to nature.",
+    "For the Dashboard, use the 'Bento Grid' layout (Mode A) but adapted for mobile (stacking cards).",
+    "Use Recharts for all data visualization (Soil moisture, Price trends). Style them with the primary and secondary colors.",
+    "Ensure all touch targets (buttons, inputs) are at least 44px high for easy tapping on mobile.",
+    "Use the provided image URLs for specific sections (Hero, Disease Detection, Equipment Rental).",
+    "For the 'Disease Detection' page, create a camera-like interface frame.",
+    "For 'Mandi Pricing', use clear, large text for prices and trends.",
+    "Add 'data-testid' to all interactive elements.",
+    "Do not use gradients for text. Keep text high-contrast against the background."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: `transition: all`. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add `.App { text-align: center; }` in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯📚🎭🎬🎪🎉🎊🎁🎀🎂🍰🎈🎨🎰💰💵💳🏦💎🪙💸🤑📊📈📉💹🔢🏆🥇 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "Create new components that match the style and conventions of existing components when needed",
+    "Examine existing components to understand the project's component patterns before creating new ones",
+    "Components MUST use named exports (export const ComponentName = ...)",
+    "Pages MUST use default exports (export default function PageName() {...})",
+    "Use `sonner` for toasts. Sonner component are located in `/app/src/components/ui/sonner.tsx`"
+  ]
+}
